@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">The Movie Database App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_top_rated_movies">Top Rated Movies</string>
+    <string name="title_activity_now_playing_movies">Now Playing Movies</string>
+    <string name="title_activity_search_movies">Search Movies</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_static_results">StaticResultsActivity</string>
+
+    <string name="dailog_title">Network Connection Alert</string>
+    <string name="dailog_message">Network Connection is not available. Please click on OK to see local data</string>
+
+    <string name="api_key">777be95ccc0f24d634a348a2d2d8dd85</string>
+</resources>

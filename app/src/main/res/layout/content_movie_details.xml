@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bhavya.themoviedatabaseapp.MovieDetailsActivity"
+    tools:showIn="@layout/activity_movie_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/movie_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/details_margin"
+            android:paddingBottom="@dimen/details_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+        <TextView
+            android:id="@+id/movie_description_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/details_margin"
+            android:paddingBottom="@dimen/details_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="Overview of the Movie"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/movie_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/details_margin"
+            android:paddingBottom="@dimen/details_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:lineSpacingMultiplier="1.5"/>
+
+        <ImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
